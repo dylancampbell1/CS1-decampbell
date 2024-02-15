@@ -16,3 +16,12 @@ Status	Complete
 Location    https://github.com/dylancampbell1/CS1-decampbell/tree/main/labs
 Self Grade	100/100
 Notes	
+
+Labs #2
+Name	Circle
+Description	Calculate and show circumfrence and area of a circle from user chosen radius
+Due Date	18-Feb-2024
+Status	Complete
+Location    https://github.com/dylancampbell1/CS1-decampbell/tree/main/labs/L2
+Self Grade	100/100
+Notes	
