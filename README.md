@@ -17,6 +17,15 @@ Location    https://github.com/dylancampbell1/CS1-decampbell/tree/main/Assingmen
 Self Grade	100/100
 Notes: Added bonus point to check validity of triangle
 
+Homework #3
+Name    Calculator
+Description	Takes two numbers and preforms various calculations with them
+Due Date	11-March-2024
+Status	Complete
+Location    https://github.com/dylancampbell1/CS1-decampbell/tree/main/Assingments/HW3
+Self Grade	100/100
+Notes: Added bonus point to check validity of triangle
+
 Labs #1
 Name	Tom and Jerry Ascii art
 Description	creating Tom and jerry ascii art using string variables
