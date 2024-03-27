@@ -26,6 +26,15 @@ Location    https://github.com/dylancampbell1/CS1-decampbell/tree/main/Assingmen
 Self Grade	100/100
 Notes: Added bonus point to check validity of triangle
 
+Homework #4
+Name    Conditionals
+Description	Takes two numbers and preforms various calculations with them
+Due Date	11-March-2024
+Status	Complete
+Location    https://github.com/dylancampbell1/CS1-decampbell/tree/main/Assingments/HW3
+Self Grade	100/100
+Notes: Added bonus point to check validity of triangle
+
 Labs #1
 Name	Tom and Jerry Ascii art
 Description	creating Tom and jerry ascii art using string variables
@@ -52,3 +61,12 @@ Status	Complete
 Location    https://github.com/dylancampbell1/CS1-decampbell/tree/main/labs/L3
 Self Grade	100/100
 Notes	Enjoyed this one, bonus point was cool
+
+Labs #4
+Name	Conditionals lab  
+Description	Fix a program that uses conditioanls to manipulate numbers
+Due Date	24-March-2024
+Status	Complete
+Location    https://github.com/dylancampbell1/CS1-decampbell/tree/main/labs/L4
+Self Grade	100/100
+Notes
