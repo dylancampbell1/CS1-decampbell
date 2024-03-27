@@ -24,16 +24,16 @@ Due Date	11-March-2024
 Status	Complete
 Location    https://github.com/dylancampbell1/CS1-decampbell/tree/main/Assingments/HW3
 Self Grade	100/100
-Notes: Added bonus point to check validity of triangle
+Notes:
 
 Homework #4
 Name    Conditionals
-Description	Takes two numbers and preforms various calculations with them
+Description	Takes five numbers and preforms various calculations with them
 Due Date	11-March-2024
 Status	Complete
-Location    https://github.com/dylancampbell1/CS1-decampbell/tree/main/Assingments/HW3
+Location    https://github.com/dylancampbell1/CS1-decampbell/tree/main/Assingments/HW4
 Self Grade	100/100
-Notes: Added bonus point to check validity of triangle
+Notes: 
 
 Labs #1
 Name	Tom and Jerry Ascii art
