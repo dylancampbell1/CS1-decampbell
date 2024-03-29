@@ -34,6 +34,14 @@ Status	Complete
 Location    https://github.com/dylancampbell1/CS1-decampbell/tree/main/Assingments/HW4
 Self Grade	100/100
 Notes: 
+Homework #5
+Name    Guess
+Description	Takes five numbers and preforms various calculations with them
+Due Date	26-March-2024
+Status	Complete
+Location    https://github.com/dylancampbell1/CS1-decampbell/tree/main/Assingments/HW5
+Self Grade	100/100
+Notes: Should have the bonus point here
 
 Labs #1
 Name	Tom and Jerry Ascii art
@@ -70,3 +78,11 @@ Status	Complete
 Location    https://github.com/dylancampbell1/CS1-decampbell/tree/main/labs/L4
 Self Grade	100/100
 Notes
+Labs #5
+Name	Loops lab  
+Description	Create a program that creates shapes using loops
+Due Date	26-March-2024
+Status	Complete
+Location    https://github.com/dylancampbell1/CS1-decampbell/tree/main/labs/L5
+Self Grade	100/100
+Notes This one was satisfying to get right
