@@ -16,13 +16,14 @@ i.e bob , can*/
 
 using namespace std;
 
+//Getting the word from user
 string getWord(){
     string word;
     cout << "Hello user, please enter a word you would like to alter" << endl;
     cin >> word;
     return word;
 }
-
+//Part of the program that changes the input
 string alterWord(string word){
     string result = "";
     for(int i = 0; word.length() > i ; i++){
@@ -33,11 +34,13 @@ string alterWord(string word){
     }
     return result;
 }
+//test section
 void test(){
     assert(alterWord("bruuuuhhhhhh") == "bruh");
     assert(alterWord("jojojo") == "jojojo");
     assert(alterWord("mississippi") == "misisipi");
 }
+//runs all commands and checks weather or not to run test
 int main(int argc, char* argv[]){
         if (argc > 1 && string(argv[1]) == "test"){
         test();
