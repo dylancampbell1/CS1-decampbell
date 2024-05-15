@@ -52,6 +52,28 @@ Location    https://github.com/dylancampbell1/CS1-decampbell/tree/main/Assingmen
 Self Grade	100/100
 Notes:
 
+Homework #7
+Name    Falling Apart
+
+Description: A program that simulates a game where two players choose the largest number of a set and take turns until there are mome left
+
+Due Date 14-May-2024
+Status	Complete
+Location    https://github.com/dylancampbell1/CS1-decampbell/tree/main/Assingments/HW7
+Self Grade	100/100
+Notes:
+
+Homework #8
+Name    Matlan Number Sort
+
+Sorts Numbers using the matlab programing langauge
+
+Due Date	14-May-2024
+Status	Complete
+Location    
+Self Grade	100/100
+Notes:
+
 Labs #1
 Name	Tom and Jerry Ascii art
 Description	creating Tom and jerry ascii art using string variables
@@ -111,5 +133,14 @@ Description	Create a program that detects "ss" in strings
 Due Date	6-April-2024
 Status	Complete
 Location    https://github.com/dylancampbell1/CS1-decampbell/tree/main/labs/L7
+Self Grade	100/100
+Notes
+
+Labs #8
+Name	Hissing lab  
+Description	The following lab demonstrates the usage of an array data structure and some operations on arrays.
+Due Date	6-April-2024
+Status	Complete
+Location    https://github.com/dylancampbell1/CS1-decampbell/tree/main/labs/L8
 Self Grade	100/100
 Notes
