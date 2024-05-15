@@ -179,7 +179,7 @@ void guessLogic(string correct)
 //Function to play again
 bool playAgain(){
     string y = "";
-    bool play;
+    bool play = true;
     cout << "enter y/Y to continue, n/N to quit" << endl;
     cin >> y;
 
