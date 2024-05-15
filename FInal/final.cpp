@@ -21,20 +21,19 @@ string getWord(int random){
     for(int i = 0; i<25; i++){
         fin >> words[i];
     }
-    
+    fin.close();
     return words[random];
 }
 
 void guessLogic(string correct)
 {   
-    bool win = true;
     bool gameContinue = true;
     char g;
     int wrongCounter = 0;
     vector <char> guesses;
     string player(correct.length(), '*');
     for(int i = 0; i < correct.length(); i++){
-        player[i] = '*';
+        player[i] = '_';
     }
         cout << "  +---+" << endl;
         cout << "  |   |" << endl;
@@ -46,9 +45,12 @@ void guessLogic(string correct)
         cout << player << endl;
     while(gameContinue)
     {
+        //player input
         cin >> g;
         bool answerCorrect = false;
         bool alreadyGuessed = false;
+        
+        //iterates through the guesses vector checking if the players guess is already contained in the vector
         for (char c : guesses) {
             if (c == g) {
                 alreadyGuessed = true;
@@ -60,8 +62,10 @@ void guessLogic(string correct)
             cout << "You already guessed that!" << endl;
             continue;
         }
-
+        //adds guess to the list of guesses
         guesses.push_back(g);
+
+        //checking if guess is correct
         for(int i = 0; i < correct.length(); i++){
             if (g == correct[i])
             {
@@ -76,7 +80,9 @@ void guessLogic(string correct)
             cout << "incorrect " << g << " is not apart of the word" << endl;
             wrongCounter++;
         }
-            switch(wrongCounter){
+        //changes based on how mnay times the playe has been wrong
+        //Used this for ASCII Art https://gist.github.com/chrishorton/8510732aa9a80a03c829b09f12e20d9c
+            switch(wrongCounter){   
             case 0:
                 cout << "  +---+" << endl;
                 cout << "  |   |" << endl;
@@ -169,6 +175,8 @@ void guessLogic(string correct)
             }
     }
 }
+
+//Function to play again
 bool playAgain(){
     string y = "";
     bool play;
@@ -194,8 +202,7 @@ int main(){
     while(playAgain()){
     string correct = getWord(randomLogic());
     char arr[correct.length()];
-    strcpy(arr, correct.c_str()); //https://www.digitalocean.com/community/tutorials/convert-string-to-char-array-c-plus-plus
-    guessLogic(correct);
+    strcpy(arr, correct.c_str());
     }
 
 }
