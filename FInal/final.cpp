@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <string>
+#include <cstring>
 #include <cassert>
 #include <vector>
 #include <fstream>
@@ -179,7 +180,7 @@ void guessLogic(string correct)
 //Function to play again
 bool playAgain(){
     string y = "";
-    bool play = true;
+    bool play;
     cout << "enter y/Y to continue, n/N to quit" << endl;
     cin >> y;
 
@@ -200,7 +201,7 @@ int main(){
     guessLogic(correct);
     
     while(playAgain()){
-    string correct = getWord(randomLogic());
+    correct = getWord(randomLogic());
     char arr[correct.length()];
     strcpy(arr, correct.c_str());
     }
